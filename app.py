@@ -19,7 +19,7 @@ st.markdown("""
 with st.sidebar:
     st.header("設定")
     # 預設放入常見的科技股 + 對沖資產(如公債TLT, 黃金GLD)
-    default_tickers = "NVDA TSLA AVGO MSFT GOOG AMZN LMT TLT GLD"
+    default_tickers = "NVDA TSLA AVGO MSFT GOOG MRVL ORCL AAPL TSM"
     tickers_input = st.text_area("輸入股票代碼 (空白鍵分隔)", value=default_tickers, height=100)
     
     days_back = st.slider("回溯天數 (觀察多久的相關性?)", 30, 1095, 365)
