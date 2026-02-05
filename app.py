@@ -27,7 +27,7 @@ def calculate_beta(stock_returns, market_returns):
 # --- 3. 側邊欄輸入 ---
 with st.sidebar:
     st.header("⚙️ 參數設定")
-    default_tickers = "NVDA TSLA AVGO MSFT GOOG AMZN LMT TLT GLD"
+    default_tickers = "NVDA TSLA AVGO MSFT GOOG TSM MRVL AAPL ORCL"
     tickers_input = st.text_area("輸入持倉代碼", value=default_tickers, height=100)
     days_back = st.slider("回溯天數", 30, 1095, 365)
     
