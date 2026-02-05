@@ -3,3 +3,4 @@ yfinance
 seaborn
 matplotlib
 pandas
+numpy
