@@ -28,7 +28,7 @@ with st.sidebar:
     st.header("⚙️ 參數設定")
     
     # 預設清單：包含熱門科技股、避險資產
-    default_tickers = "NVDA TSLA AVGO MSFT GOOG AMZN LMT TLT GLD"
+    default_tickers = "NVDA TSLA AVGO MSFT GOOG AAPL MRVL ORCL TSM"
     tickers_input = st.text_area("輸入持倉代碼 (用空白鍵分隔)", value=default_tickers, height=100)
     
     days_back = st.slider("回溯天數 (過去幾天的表現?)", 30, 1095, 365)
